@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나만의 어드벤트 캘린더</title>
+    <link rel="icon" type="image/x-icon" href="image/icon.ico">
+    <link rel="icon" type="image/png" href="image/icon.ico">
+    <link rel="apple-touch-icon" href="image/icon.ico">
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <script src="calendar-data.js"></script>
+</head>
+<body>
+    <div class="fixed-background"></div>
+
+    <h1><img src="image/advent_calendar_title.png" alt="Advent Calendar"></h1>
+
+    <div class="calendar-grid" id="calendarGrid"></div>
+
+    <div class="admin-button-container">
+        <!-- <button class="admin-button" onclick="openAdminPage()">Admin</button> -->
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle" style="color: #c0392b;"></h2>
+            <p id="modalStory" style="line-height: 1.6;"></p>
+            <img id="modalImage" class="modal-image" src="" alt="일별 이미지">
+        </div>
+    </div>
+
+    <script>
+        // function openAdminPage() {
+        //     window.open('admin.php', '_blank');
+        // }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
