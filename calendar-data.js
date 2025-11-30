@@ -205,7 +205,7 @@ const hardcodedCalendarData = {
     "settings": {
         "title_image_url": "image/advent_calendar_title.png",
         "background_image_url": "image/background.png",
-        "site_title": "나만의 어드벤트 캘린더",
+        "site_title": "[데이워커] 어드벤트 캘린더",
         "favicon_url": "image/icon.ico",
         "lock_calendar": "1",
         "is_admin": false
